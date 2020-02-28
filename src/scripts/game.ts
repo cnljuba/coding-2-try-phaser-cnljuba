@@ -3,8 +3,9 @@ import MainScene from './scenes/mainScene';
 import PreloadScene from './scenes/preloadScene';
 import GameConfig = Phaser.Types.Core.GameConfig;
 
-const DEFAULT_WIDTH = 400;
-const DEFAULT_HEIGHT = 400;
+const DEFAULT_WIDTH = 1000;
+const DEFAULT_HEIGHT = 750;
+let game = new Phaser.Game();
 
 
 const config: GameConfig = {
